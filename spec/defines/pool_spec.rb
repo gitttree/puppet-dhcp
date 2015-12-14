@@ -114,7 +114,7 @@ describe 'dhcp::pool' do
         "  option ntp-servers 10.0.0.2;",
         "  max-lease-time 300;",
         "  option domain-name-servers 10.0.0.2, 10.0.0.4;",
-        "  option domain-search \"example.org, other.example.org\";",
+        "  option domain-search \"example.org\", \"other.example.org\";",
         "  next-server 10.0.0.2;",
         "}",
       ])
